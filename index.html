@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel form</title>
+</head>
+
+<body>
+    <img class="bg" src="Shogran,Naran_Valley.jpg" alt="bg">
+    <div class="container">
+        <h1>Welcome to Phoenix Travels</h1>
+        <p>Enter details and submit this form to confirm Your
+            Reservation in trip to Shogran!</p>
+        <p class="msgsub">Thanks for submitting your form .We are happy to see you joining in trip to Shogran!</p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Your name">
+            <input type="text" name="age" id="age" placeholder="Enter Your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter Your gender">
+            <input type="text" name="phone" id="phone" placeholder="Enter Your Phone no">
+            <input type="text" name="email" id="email" placeholder="Enter Your Email">
+            <textarea name="other" id="other" cols="30" rows="10">
+    Enter any other Information
+</textarea>
+            <button class="btn">Submit</button>
+            <!-- <button class="btn">Reset</button> -->
+
+        </form>
+    </div>
+    <script src="app.js"></script>
+    
+    <!-- INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `phone`, `email`, `other`, `dt`) VALUES ('2', 'Ali', '20', 'male', '03456786543', 'koskdl@gmail.com', 'jskdjkajdk', current_timestamp()); -->
+</body>
+
+</html>
